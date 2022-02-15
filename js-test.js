@@ -17,4 +17,8 @@ function countIt(){
     if(counter >= 200) {
         achievement.innerHTML="Achievement unlocked: Gecire unatkozol Tier 2! <br>";
     }
+    function generateRandomIntegerInRange(min, max) {
+        return Math.floor(Math.random() * (max - min + 1)) + min;
+    }
+    document.querySelector("body").style="background-color:rgb("+generateRandomIntegerInRange(0, 256)+","+generateRandomIntegerInRange(0, 256)+","+generateRandomIntegerInRange(0, 256)+")";
 }
