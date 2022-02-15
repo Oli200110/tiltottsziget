@@ -1,5 +1,5 @@
 const stressButton = document.querySelector('#stressed');
-const niceOneDiv = document.querySelector('#KeepGoin');
+const niceOne = document.querySelector('#KeepGoin');
 const achievement = document.querySelector('#Achievement');
 let counter = 0;
 
@@ -8,7 +8,7 @@ stressButton.addEventListener("click", countIt);
 function countIt(){
     counter++;
     if(counter >= 100) {
-        niceOneDiv.style = "visibility: visible";
+        niceOne.style = "Nem fog történni semmi am... :( <br> Sorry!";
     }
 
     if(counter >= 200) {
