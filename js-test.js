@@ -1,6 +1,5 @@
 const stressButton = document.querySelector('#stressed');
 const niceOneDiv = document.querySelector('#KeepGoin');
-<<<<<<< HEAD
 const achievement = document.querySelector('#Achievement');
 let counter = 0;
 
@@ -15,6 +14,7 @@ function countIt(){
     if(counter >= 200) {
         achievement.innerHTML="Achievment unlcoked: Gecire unatkozol! <br>";
     }
+    if(counter >= 200) {
+        achievement.innerHTML="Achievment unlcoked: Gecire unatkozol Tier 2! <br>";
+    }
 }
-}
-
