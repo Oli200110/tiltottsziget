@@ -12,9 +12,9 @@ function countIt(){
     }
 
     if(counter >= 200) {
-        achievement.innerHTML="Achievment unlcoked: Gecire unatkozol! <br>";
+        achievement.innerHTML="Achievement unlocked: Gecire unatkozol! <br>";
     }
     if(counter >= 200) {
-        achievement.innerHTML="Achievment unlcoked: Gecire unatkozol Tier 2! <br>";
+        achievement.innerHTML="Achievement unlocked: Gecire unatkozol Tier 2! <br>";
     }
 }
