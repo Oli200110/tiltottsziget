@@ -20,6 +20,5 @@ function countIt(){
     function generateRandomIntegerInRange(min, max) {
         return Math.floor(Math.random() * (max - min + 1)) + min;
     }
-    var asd=generateRandomIntegerInRange(0, 256);
     document.querySelector("body").style="background-color:rgb("+generateRandomIntegerInRange(0, 256)+","+generateRandomIntegerInRange(0, 256)+","+generateRandomIntegerInRange(0, 256)+")";
 }
